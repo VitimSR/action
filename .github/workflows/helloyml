@@ -1,0 +1,12 @@
+name: Wello Word
+on: [push]
+jobs:
+  print-wellod-word:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run 
+        run: echo Hello Word
+      - name: Run 
+          echo Add other actions to build,
+          echo test, and deploy your project.
